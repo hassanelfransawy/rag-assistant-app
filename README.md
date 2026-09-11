@@ -167,7 +167,7 @@ The corpus is **not committed** to this repository (~200 MB). Reproduce it with 
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone https://github.com/<your-username>/rag-assistant-app.git
+git clone https://github.com/hassanelfransawy/rag-assistant-app.git
 cd rag-assistant-app
 
 python -m venv .venv
