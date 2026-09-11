@@ -1,0 +1,22 @@
+# Backend dependencies.
+#
+# Ranges are used so a fresh `pip install` does not break on a yanked build.
+# Once your project runs end-to-end, freeze exact versions for reproducibility:
+#     pip freeze > requirements.txt
+
+# --- Web framework --------------------------------------------------------
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.32,<1.0
+pydantic>=2.9,<3.0
+pydantic-settings>=2.6,<3.0
+
+# --- Retrieval ------------------------------------------------------------
+chromadb>=0.5,<2.0
+sentence-transformers>=3.0,<6.0
+
+# --- Generation -----------------------------------------------------------
+ollama>=0.3,<1.0
+
+# --- Tests ----------------------------------------------------------------
+pytest>=8.3,<10.0
+httpx>=0.27,<1.0

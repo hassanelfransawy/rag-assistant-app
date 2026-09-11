@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Created BEFORE the first commit, as the project brief requires.
+# The rule of thumb: never commit secrets, never commit anything a script can
+# regenerate, never commit anything large.
+# ---------------------------------------------------------------------------
+
+# --- Secrets --------------------------------------------------------------
+.env
+*.env
+!.env.example
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter --------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Raw document corpus --------------------------------------------------
+# ~200 MB of FAA PDFs. Regenerate with: python scripts/download_corpus.py
+data/raw/
+!data/raw/.gitkeep
+
+# --- Vector store ---------------------------------------------------------
+# Regenerate by running notebooks/rag_pipeline.ipynb.
+# Chroma's SQLite file changes on every read, which makes for terrible diffs.
+backend/data/vector_store/
+!backend/data/vector_store/.gitkeep
+
+# --- Model cache ----------------------------------------------------------
+.cache/
+models/
+
+# --- Logs -----------------------------------------------------------------
+*.log
+logs/
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

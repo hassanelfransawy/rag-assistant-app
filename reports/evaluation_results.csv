@@ -1,0 +1,15 @@
+#,question,retrieved_source,top_score,context_relevant,grounded,cites_sources,auto_correct,latency_s
+1,What is the difference between indicated airspeed an...,Instrument Flying Handbook p.104,0.5572,True,True,True,True,70.5
+2,What causes a wing to stall?,Pilot's Handbook of Aerona p.147,0.5658,True,True,True,True,25.0
+3,What is the purpose of the ailerons?,Pilot's Handbook of Aerona p.154,0.5573,True,True,True,True,55.7
+4,What is density altitude?,Pilot's Handbook of Aerona p.93,0.7249,True,True,True,True,60.6
+5,How is an aircraft's center of gravity calculated?,Aircraft Weight and Balanc p.93,0.7854,True,True,True,True,55.3
+6,What conditions are favourable for carburetor icing?,Pilot's Handbook of Aerona p.171,0.7691,True,True,True,True,70.5
+7,What are the four forces acting on an airplane in fl...,Pilot's Handbook of Aerona p.100,0.6434,True,True,True,True,76.1
+8,What does angle of attack mean?,Pilot's Handbook of Aerona p.101,0.6362,True,True,True,True,58.3
+9,What is a METAR?,Pilot's Handbook of Aerona p.318,0.7127,True,True,True,True,96.6
+10,What is the purpose of the pitot-static system?,Instrument Flying Handbook p.97,0.6567,True,True,True,True,96.3
+11,What is the maximum altitude for small unmanned airc...,Remote Pilot - Small UAS S p.29,0.5548,True,True,False,False,37.0
+12,What is the best recipe for koshari?,-- none --,0.0,True,False,False,True,0.1
+13,Who won the 2018 FIFA World Cup?,-- none --,0.0,True,False,False,True,0.1
+14,How do I write a for loop in JavaScript?,-- none --,0.0,True,False,False,True,0.1

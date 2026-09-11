@@ -1,0 +1,21 @@
+# Dependencies for notebooks/rag_pipeline.ipynb and scripts/download_corpus.py.
+# Install from the repository root:
+#     pip install -r requirements-notebook.txt
+
+jupyter>=1.0,<2.0
+pandas>=2.0,<3.0
+numpy>=1.26,<3.0
+
+# PDF parsing
+pypdf>=5.0,<7.0
+
+# Embeddings + vector store (same versions as the backend uses)
+sentence-transformers>=3.0,<6.0
+chromadb>=0.5,<2.0
+
+# Corpus download
+requests>=2.32,<3.0
+python-dotenv>=1.0,<2.0
+
+# Used only in the evaluation section to talk to the local LLM
+ollama>=0.3,<1.0
